@@ -1,3 +1,30 @@
 Link para download do Git:
 https://git-scm.com/downloads
 
+Git Hub - Comandos básicos
+
+Link: https://github.com/
+
+-1) Criar Repositório
+- Menu + -> New Repository
+- Repository name: dio-desafio-github-primeiro-repositorio
+- Create Repository
+
+2) Clonar Repositório para pasta local
+- Menu Code -> Clone -> HTTPS
+- Acessar o diretório local, botão direito e Git Bash Here
+- Comando: 
+
+git clone https://github.com/educandido/dio-desafio-github-primeiro-repositorio.git
+
+
+3) Adicionar os arquivos na branch e enviar pro Git
+- Editar os arquivos locais.
+
+git status
+
+git add .
+
+git commit -m "Inclusão das anotações do curso de Git/GitHub"
+
+git push origin main
